@@ -1,0 +1,17 @@
+
+POST http://localhost:3000/word-guesser-api/guess
+Content-Type: application/json
+
+{
+    "guess": "apple"
+}
+
+###
+
+POST http://localhost:3000/word-guesser-api/guess/2000-01-01
+Content-Type: application/json
+
+{
+    "guess": "river"
+}
+
